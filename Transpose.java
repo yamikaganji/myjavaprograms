@@ -22,6 +22,7 @@ public class Transpose {
 				System.out.print(" ");
 			}
 		}
+	
 		System.out.println("the given matrix is:");
 		for(i=0;i<r;i++)
 		{

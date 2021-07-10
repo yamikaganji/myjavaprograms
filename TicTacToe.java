@@ -3,33 +3,23 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class TicTacToe {
-	//static Scanner in;
-	static String[] board;
-	//static String turn;
-
+	/*private static  char[][] board;
+	private char currentPlayerMark;*/
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
-		board =new String[9];
-		String winner="null";
-		String turn="x";
-		System.out.println("welcome to 2 player tic tac toe:");
-		System.out.println("--------------------------------");
-		printBoard();
-	}
-	static void printBoard()
+		initializeBoard();
+		private stati  char[][
+
+}
+	public static void initializeBoard()
 	{
-		
-	}
-	
-	static void populateEmptyBoard()
-	{
-		for(int i=0;i<9;i++)
+		for(int i=0;i<3;i++)
 		{
-			board[i]=String.valueOf(i+1);
+			for(int j=0;j<3;j++)
+			{
+				board[i][j]='-';
+			}
 		}
 	}
-
 }
