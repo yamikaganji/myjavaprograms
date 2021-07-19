@@ -10,6 +10,7 @@ public class Area {
 	}
 	public static double area(double r)
 	{
+		// caluculate area of the circle
 		double A2=3.14*r*r;
 		return A2;
 	}

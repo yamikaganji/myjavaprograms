@@ -96,6 +96,7 @@ public class TicTacToe {
 	{
 		return((c1!='-')&&(c1==c2)&&(c2==c3));
 	}
+	
 	private static boolean placeMark(int row,int col) {
 	if((row>=0)&&(row<3))
 	{
@@ -123,6 +124,7 @@ public class TicTacToe {
 		}
 		
 	}
+	
 	private static void printBoard() {
 		System.out.println("-----------------------");
 		for(int i=0;i<3;i++)
@@ -138,6 +140,7 @@ public class TicTacToe {
 		}
 		
 	}
+	
 	public static void initializeBoard()
 	{
 		for(int i=0;i<3;i++)
